@@ -1,5 +1,4 @@
-# Giphy Search App
-
+#GIF Fetcher
 A simple web app for fetching and displaying GIFs from the Giphy API. Users can search for specific GIFs, fetch random GIFs, and see an error message if the search fails or no GIFs are found.
 
 ## Features
