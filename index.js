@@ -8,7 +8,7 @@ let searchTerm = "cats"; //default
 const defaultGifUrl = "https://via.placeholder.com/300x200?text=No+GIF+found";
 
 function fetchGif(term) {
-  const URL = `https://api.giphy.com/v1/gifs/translate?api_key=gouZjBqNOKQ4lvFXRrojCir0ewY2C8pV&s=${term}`;
+  const URL = `https://api.giphy.com/v1/gifs/translate?api_key={YOUR-API-KEY}=${term}`;
 
   fetch(URL, {
     mode: "cors",
